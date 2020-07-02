@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/tree_simple.obj-09fd61bd81cfe5811e04f6d3654ff1bb.mesh"
+
+[deps]
+
+files=[ "res://.import/tree_simple.obj-09fd61bd81cfe5811e04f6d3654ff1bb.mesh" ]
+
+source_file="res://assets/naturekit/tree_simple.obj"
+dest_files=[ "res://.import/tree_simple.obj-09fd61bd81cfe5811e04f6d3654ff1bb.mesh", "res://.import/tree_simple.obj-09fd61bd81cfe5811e04f6d3654ff1bb.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

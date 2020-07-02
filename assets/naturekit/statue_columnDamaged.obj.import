@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/statue_columnDamaged.obj-b4ec431d9232aadd8403791fd00a3c95.mesh"
+
+[deps]
+
+files=[ "res://.import/statue_columnDamaged.obj-b4ec431d9232aadd8403791fd00a3c95.mesh" ]
+
+source_file="res://assets/naturekit/statue_columnDamaged.obj"
+dest_files=[ "res://.import/statue_columnDamaged.obj-b4ec431d9232aadd8403791fd00a3c95.mesh", "res://.import/statue_columnDamaged.obj-b4ec431d9232aadd8403791fd00a3c95.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

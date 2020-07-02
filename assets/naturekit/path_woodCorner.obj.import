@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/path_woodCorner.obj-2a2585d708fed479ab917ff2f8ba04ec.mesh"
+
+[deps]
+
+files=[ "res://.import/path_woodCorner.obj-2a2585d708fed479ab917ff2f8ba04ec.mesh" ]
+
+source_file="res://assets/naturekit/path_woodCorner.obj"
+dest_files=[ "res://.import/path_woodCorner.obj-2a2585d708fed479ab917ff2f8ba04ec.mesh", "res://.import/path_woodCorner.obj-2a2585d708fed479ab917ff2f8ba04ec.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

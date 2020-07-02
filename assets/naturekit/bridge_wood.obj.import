@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/bridge_wood.obj-85ffd269e647141b8a7c11ca0db68107.mesh"
+
+[deps]
+
+files=[ "res://.import/bridge_wood.obj-85ffd269e647141b8a7c11ca0db68107.mesh" ]
+
+source_file="res://assets/naturekit/bridge_wood.obj"
+dest_files=[ "res://.import/bridge_wood.obj-85ffd269e647141b8a7c11ca0db68107.mesh", "res://.import/bridge_wood.obj-85ffd269e647141b8a7c11ca0db68107.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

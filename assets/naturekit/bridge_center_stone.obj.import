@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/bridge_center_stone.obj-3f825d8808ce7964a405effa1ad7fe25.mesh"
+
+[deps]
+
+files=[ "res://.import/bridge_center_stone.obj-3f825d8808ce7964a405effa1ad7fe25.mesh" ]
+
+source_file="res://assets/naturekit/bridge_center_stone.obj"
+dest_files=[ "res://.import/bridge_center_stone.obj-3f825d8808ce7964a405effa1ad7fe25.mesh", "res://.import/bridge_center_stone.obj-3f825d8808ce7964a405effa1ad7fe25.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

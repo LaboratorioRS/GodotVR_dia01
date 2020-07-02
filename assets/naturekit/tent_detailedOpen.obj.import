@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/tent_detailedOpen.obj-70c013aff90a5995c492e2c72ce49cd3.mesh"
+
+[deps]
+
+files=[ "res://.import/tent_detailedOpen.obj-70c013aff90a5995c492e2c72ce49cd3.mesh" ]
+
+source_file="res://assets/naturekit/tent_detailedOpen.obj"
+dest_files=[ "res://.import/tent_detailedOpen.obj-70c013aff90a5995c492e2c72ce49cd3.mesh", "res://.import/tent_detailedOpen.obj-70c013aff90a5995c492e2c72ce49cd3.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

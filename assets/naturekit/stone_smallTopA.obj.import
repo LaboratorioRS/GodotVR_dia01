@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/stone_smallTopA.obj-095f02adaa54ea92510c5887bec434ed.mesh"
+
+[deps]
+
+files=[ "res://.import/stone_smallTopA.obj-095f02adaa54ea92510c5887bec434ed.mesh" ]
+
+source_file="res://assets/naturekit/stone_smallTopA.obj"
+dest_files=[ "res://.import/stone_smallTopA.obj-095f02adaa54ea92510c5887bec434ed.mesh", "res://.import/stone_smallTopA.obj-095f02adaa54ea92510c5887bec434ed.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

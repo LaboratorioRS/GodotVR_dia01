@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/crops_dirtRow.obj-ed5ee1e12649c0b4f728f59ed31df6cd.mesh"
+
+[deps]
+
+files=[ "res://.import/crops_dirtRow.obj-ed5ee1e12649c0b4f728f59ed31df6cd.mesh" ]
+
+source_file="res://assets/naturekit/crops_dirtRow.obj"
+dest_files=[ "res://.import/crops_dirtRow.obj-ed5ee1e12649c0b4f728f59ed31df6cd.mesh", "res://.import/crops_dirtRow.obj-ed5ee1e12649c0b4f728f59ed31df6cd.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

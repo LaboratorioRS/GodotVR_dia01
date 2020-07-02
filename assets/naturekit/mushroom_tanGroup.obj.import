@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/mushroom_tanGroup.obj-85554781176ba254c0ad56739edbeada.mesh"
+
+[deps]
+
+files=[ "res://.import/mushroom_tanGroup.obj-85554781176ba254c0ad56739edbeada.mesh" ]
+
+source_file="res://assets/naturekit/mushroom_tanGroup.obj"
+dest_files=[ "res://.import/mushroom_tanGroup.obj-85554781176ba254c0ad56739edbeada.mesh", "res://.import/mushroom_tanGroup.obj-85554781176ba254c0ad56739edbeada.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/fence_simpleHigh.obj-3d018b09454291e051a646c7bbb65e6f.mesh"
+
+[deps]
+
+files=[ "res://.import/fence_simpleHigh.obj-3d018b09454291e051a646c7bbb65e6f.mesh" ]
+
+source_file="res://assets/naturekit/fence_simpleHigh.obj"
+dest_files=[ "res://.import/fence_simpleHigh.obj-3d018b09454291e051a646c7bbb65e6f.mesh", "res://.import/fence_simpleHigh.obj-3d018b09454291e051a646c7bbb65e6f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

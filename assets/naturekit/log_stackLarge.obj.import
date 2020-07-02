@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/log_stackLarge.obj-bd89a2b95a374aae66348d9c3b8da29a.mesh"
+
+[deps]
+
+files=[ "res://.import/log_stackLarge.obj-bd89a2b95a374aae66348d9c3b8da29a.mesh" ]
+
+source_file="res://assets/naturekit/log_stackLarge.obj"
+dest_files=[ "res://.import/log_stackLarge.obj-bd89a2b95a374aae66348d9c3b8da29a.mesh", "res://.import/log_stackLarge.obj-bd89a2b95a374aae66348d9c3b8da29a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

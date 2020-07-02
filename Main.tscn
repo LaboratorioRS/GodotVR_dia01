@@ -1,0 +1,86 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Main.gd" type="Script" id=1]
+[ext_resource path="res://OQ_Toolkit/OQ_ARVROrigin.tscn" type="PackedScene" id=2]
+[ext_resource path="res://OQ_Toolkit/OQ_RightController.tscn" type="PackedScene" id=3]
+[ext_resource path="res://OQ_Toolkit/OQ_LeftController.tscn" type="PackedScene" id=4]
+[ext_resource path="res://OQ_Toolkit/OQ_ARVRCamera.tscn" type="PackedScene" id=5]
+[ext_resource path="res://OQ_Toolkit/OQ_ARVROrigin/Feature_VRSimulator.tscn" type="PackedScene" id=6]
+[ext_resource path="res://assets/naturekit.meshlib" type="MeshLibrary" id=7]
+[ext_resource path="res://OQ_Toolkit/OQ_ARVROrigin/Locomotion_Stick.tscn" type="PackedScene" id=8]
+
+[node name="Main" type="Spatial"]
+script = ExtResource( 1 )
+
+[node name="OQ_ARVROrigin" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 1.02517, 1.40926, -1.04806 )
+
+[node name="OQ_ARVRCamera" parent="OQ_ARVROrigin" instance=ExtResource( 5 )]
+
+[node name="OQ_LeftController" parent="OQ_ARVROrigin" instance=ExtResource( 4 )]
+
+[node name="OQ_RightController" parent="OQ_ARVROrigin" instance=ExtResource( 3 )]
+
+[node name="Feature_VRSimulator" parent="OQ_ARVROrigin" instance=ExtResource( 6 )]
+
+[node name="Locomotion_Stick" parent="OQ_ARVROrigin" instance=ExtResource( 8 )]
+
+[node name="Camino1" type="GridMap" parent="."]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0 )
+mesh_library = ExtResource( 7 )
+cell_size = Vector3( 1, 1, 1 )
+data = {
+"cells": PoolIntArray( 0, 0, 538312848, 1, 0, 655514, 2, 0, 537919639, 65533, 0, -536870784, 65534, 0, 128, 65535, 0, -1610612608, -65533, 0, 1048654, -65531, 0, -1609170792, -65530, 0, 150, -6, 0, 150, -5, 0, 1048728, -4, 0, -1072299956, 0, 1, 1048704, 1, 1, 537526423, 2, 1, 1048704, 65535, 1, -1610612608, -65533, 1, 1048652, -65531, 1, 1441944, -65530, 1, 150, -6, 1, 150, -5, 1, 537919640, -4, 1, 536870964, -3, 1, -1073741696, -2, 1, 36, -65536, 2, 76, -65535, 2, 78, -65534, 2, -1610612660, -65533, 2, 1048628, -65531, 2, -1609170792, -65530, 2, 150, -6, 2, 150, -5, 2, 1048728, -3, 2, 128, -2, 2, 52, -1, 2, -1610612660, -65536, 3, -1610612608, -65535, 3, 128, -65531, 3, -1609170792, -65530, 3, 536871062, -6, 3, -1610612586, -5, 3, 1048728, -3, 3, 128, -2, 3, 128, -1, 3, 128, -65536, 4, -1073086312, -65535, 4, 655512, -65534, 4, 655512, -65533, 4, 655512, -65532, 4, 655512, -65531, 4, -1609564014, -65530, 4, 536871062, -6, 4, 150, -5, 4, 146, -4, 4, -1609957224, -3, 4, 655512, -2, 4, 655512, -1, 4, 655512, -65536, 5, 150, -65535, 5, -1073741674, -65534, 5, -1073741674, -65533, 5, 150, -65532, 5, 150, -65531, 5, 150, -65530, 5, 150, -6, 5, -536870762, -5, 5, -1073741674, -4, 5, 150, -3, 5, 150, -2, 5, 150, -1, 5, -1073741674, 2, 65533, 1441920, 65533, 65533, 1441920, -65533, 65533, 1048652, -65531, 65533, 1441944, -65530, 65533, 150, -6, 65533, 150, -5, 65533, -1609564008, -4, 65533, 538312780, 0, 65534, 1074397337, 1, 65534, 145, 2, 65534, 128, 65533, 65534, 538312832, 65534, 65534, 1441937, 65535, 65534, 152, -65533, 65534, 537919564, -65531, 65534, -1072299880, -65530, 65534, 150, -6, 65534, 150, -5, 65534, 1048728, -4, 65534, 538312780, 0, 65535, 155, 1, 65535, 536871040, 2, 65535, 128, 65533, 65535, 128, 65534, 65535, 128, 65535, 65535, 128, -65533, 65535, 1048652, -65531, 65535, 1441944, -65530, 65535, 150, -6, 65535, 150, -5, 65535, 1048728, -4, 65535, 1441868 )
+}
+__meta__ = {
+"_editor_clip_": 0,
+"_editor_floor_": Vector3( 0, -1, 0 )
+}
+
+[node name="Camino2" type="GridMap" parent="."]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0 )
+mesh_library = ExtResource( 7 )
+cell_size = Vector3( 1, 1, 1 )
+data = {
+"cells": PoolIntArray( -65533, 0, 655422, -65532, 0, 655420, -65533, 1, 1441822, -65532, 1, 1048638, -3, 1, 46, -65536, 2, -1609170799, -65535, 2, 1441854, -65534, 2, -1072300002, -65533, 2, 1441822, -65532, 2, -1609564098, -3, 2, 536870964, -65535, 3, -1073741764, -65534, 3, 62, -65533, 3, 536870974, -65532, 3, 1048636, 2, 65533, 1048649, 65533, 65533, 1441865, 65538, 65533, -1609564083, 131069, 65533, 1441869, 131072, 65533, 151, 131073, 65533, -1073741696, 196606, 65533, 536871040, 196607, 65533, 1073741952, -65533, 65533, -1073086395, 0, 65534, 81, 1, 65534, 73, 2, 65534, 1074790455, 65533, 65534, 55, 65534, 65534, 73, 65535, 65534, 73, 65536, 65534, 79, 65537, 65534, 77, 65538, 65534, -1072693195, 131069, 65534, -1073741771, 131070, 65534, 77, 131071, 65534, 77, -65533, 65534, -1609564089, -65533, 65535, 1048645 )
+}
+__meta__ = {
+"_editor_clip_": 0,
+"_editor_floor_": Vector3( 0, -1, 0 )
+}
+
+[node name="Camino3" type="GridMap" parent="."]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0 )
+mesh_library = ExtResource( 7 )
+cell_size = Vector3( 1, 1, 1 )
+data = {
+"cells": PoolIntArray( -65533, 0, 1048725, -65532, 0, 1048704, -4, 0, 1048704, -65532, 1, 1048704, -4, 1, -1072693120, -65535, 2, -1073741672, -65532, 2, -1609564032, -4, 2, -1609564032, -65534, 3, 1048704, -65533, 3, 1048704, -65532, 3, -1072693120, -4, 3, 1048704, -65533, 65533, -1609564032, -65532, 65533, 537919616, -4, 65533, 1048704, -65533, 65534, 1048704, -65532, 65534, 1048704, -4, 65534, 1048704, -65533, 65535, 1048704, -65532, 65535, 1048704, -4, 65535, 1048704 )
+}
+__meta__ = {
+"_editor_clip_": 0,
+"_editor_floor_": Vector3( 0, -1, 0 )
+}
+
+[node name="Decoracion1" type="GridMap" parent="."]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0 )
+mesh_library = ExtResource( 7 )
+cell_size = Vector3( 1, 1, 1 )
+data = {
+"cells": PoolIntArray( 65533, 0, 655637, 65535, 0, 1, 0, 1, 1048844, 2, 1, 268, -2, 2, 655488, -1, 2, 655488, 2, 65533, 655631, 1, 65534, 248, 2, 65534, 280, 65534, 65534, 247, 0, 65535, 16, 65534, 65535, 265 )
+}
+__meta__ = {
+"_editor_clip_": 0,
+"_editor_floor_": Vector3( 0, -1, 0 )
+}
+
+[node name="Decoracion2" type="GridMap" parent="."]
+transform = Transform( 2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0 )
+mesh_library = ExtResource( 7 )
+cell_size = Vector3( 1, 1, 1 )
+data = {
+"cells": PoolIntArray( -4, 1, 1048594, -2, 1, -1072693066, -4, 2, 1048753, -3, 2, 536871095, -4, 3, 1048595, -3, 3, 179, -2, 3, 1048594, -65532, 65534, 1048595 )
+}
+__meta__ = {
+"_editor_clip_": 0,
+"_editor_floor_": Vector3( 0, -1, 0 )
+}

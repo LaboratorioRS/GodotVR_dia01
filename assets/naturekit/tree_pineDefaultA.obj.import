@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/tree_pineDefaultA.obj-d20312390e2898185cbca5114f00ed5f.mesh"
+
+[deps]
+
+files=[ "res://.import/tree_pineDefaultA.obj-d20312390e2898185cbca5114f00ed5f.mesh" ]
+
+source_file="res://assets/naturekit/tree_pineDefaultA.obj"
+dest_files=[ "res://.import/tree_pineDefaultA.obj-d20312390e2898185cbca5114f00ed5f.mesh", "res://.import/tree_pineDefaultA.obj-d20312390e2898185cbca5114f00ed5f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

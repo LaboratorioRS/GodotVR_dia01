@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/crop_carrot.obj-946959dbabdc4f96e6e06f9d2816d57a.mesh"
+
+[deps]
+
+files=[ "res://.import/crop_carrot.obj-946959dbabdc4f96e6e06f9d2816d57a.mesh" ]
+
+source_file="res://assets/naturekit/crop_carrot.obj"
+dest_files=[ "res://.import/crop_carrot.obj-946959dbabdc4f96e6e06f9d2816d57a.mesh", "res://.import/crop_carrot.obj-946959dbabdc4f96e6e06f9d2816d57a.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

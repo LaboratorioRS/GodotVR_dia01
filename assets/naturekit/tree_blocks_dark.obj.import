@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/tree_blocks_dark.obj-a00b6ef6e3863bd7bec3fcb94aa4897e.mesh"
+
+[deps]
+
+files=[ "res://.import/tree_blocks_dark.obj-a00b6ef6e3863bd7bec3fcb94aa4897e.mesh" ]
+
+source_file="res://assets/naturekit/tree_blocks_dark.obj"
+dest_files=[ "res://.import/tree_blocks_dark.obj-a00b6ef6e3863bd7bec3fcb94aa4897e.mesh", "res://.import/tree_blocks_dark.obj-a00b6ef6e3863bd7bec3fcb94aa4897e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

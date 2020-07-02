@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/ground_pathCross.obj-d3fca0b964bfcdeb80e91790bcd4c0cf.mesh"
+
+[deps]
+
+files=[ "res://.import/ground_pathCross.obj-d3fca0b964bfcdeb80e91790bcd4c0cf.mesh" ]
+
+source_file="res://assets/naturekit/ground_pathCross.obj"
+dest_files=[ "res://.import/ground_pathCross.obj-d3fca0b964bfcdeb80e91790bcd4c0cf.mesh", "res://.import/ground_pathCross.obj-d3fca0b964bfcdeb80e91790bcd4c0cf.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

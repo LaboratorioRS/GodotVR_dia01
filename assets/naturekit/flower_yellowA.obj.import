@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/flower_yellowA.obj-75ea5eeb7c3795c114a615e8c1650937.mesh"
+
+[deps]
+
+files=[ "res://.import/flower_yellowA.obj-75ea5eeb7c3795c114a615e8c1650937.mesh" ]
+
+source_file="res://assets/naturekit/flower_yellowA.obj"
+dest_files=[ "res://.import/flower_yellowA.obj-75ea5eeb7c3795c114a615e8c1650937.mesh", "res://.import/flower_yellowA.obj-75ea5eeb7c3795c114a615e8c1650937.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

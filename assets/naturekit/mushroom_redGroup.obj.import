@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/mushroom_redGroup.obj-a1d84909ff892c1b2ad7b9e3bf7c468e.mesh"
+
+[deps]
+
+files=[ "res://.import/mushroom_redGroup.obj-a1d84909ff892c1b2ad7b9e3bf7c468e.mesh" ]
+
+source_file="res://assets/naturekit/mushroom_redGroup.obj"
+dest_files=[ "res://.import/mushroom_redGroup.obj-a1d84909ff892c1b2ad7b9e3bf7c468e.mesh", "res://.import/mushroom_redGroup.obj-a1d84909ff892c1b2ad7b9e3bf7c468e.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

@@ -1,0 +1,2348 @@
+[gd_scene load_steps=330 format=2]
+
+[ext_resource path="res://assets/naturekit/bed.obj" type="ArrayMesh" id=1]
+[ext_resource path="res://assets/naturekit/bridge_center_wood.obj" type="ArrayMesh" id=2]
+[ext_resource path="res://assets/naturekit/bridge_center_stoneRound.obj" type="ArrayMesh" id=3]
+[ext_resource path="res://assets/naturekit/bridge_stone.obj" type="ArrayMesh" id=4]
+[ext_resource path="res://assets/naturekit/bridge_stoneRound.obj" type="ArrayMesh" id=5]
+[ext_resource path="res://assets/naturekit/bridge_wood.obj" type="ArrayMesh" id=6]
+[ext_resource path="res://assets/naturekit/bridge_center_woodRound.obj" type="ArrayMesh" id=7]
+[ext_resource path="res://assets/naturekit/cactus_short.obj" type="ArrayMesh" id=8]
+[ext_resource path="res://assets/naturekit/canoe_paddle.obj" type="ArrayMesh" id=9]
+[ext_resource path="res://assets/naturekit/bridge_woodNarrow.obj" type="ArrayMesh" id=10]
+[ext_resource path="res://assets/naturekit/bridge_side_wood.obj" type="ArrayMesh" id=11]
+[ext_resource path="res://assets/naturekit/campfire_bricks.obj" type="ArrayMesh" id=12]
+[ext_resource path="res://assets/naturekit/campfire_planks.obj" type="ArrayMesh" id=13]
+[ext_resource path="res://assets/naturekit/bridge_center_stone.obj" type="ArrayMesh" id=14]
+[ext_resource path="res://assets/naturekit/bridge_side_stone.obj" type="ArrayMesh" id=15]
+[ext_resource path="res://assets/naturekit/bridge_side_stoneRound.obj" type="ArrayMesh" id=16]
+[ext_resource path="res://assets/naturekit/bridge_woodRound.obj" type="ArrayMesh" id=17]
+[ext_resource path="res://assets/naturekit/campfire_stones.obj" type="ArrayMesh" id=18]
+[ext_resource path="res://assets/naturekit/campfire_logs.obj" type="ArrayMesh" id=19]
+[ext_resource path="res://assets/naturekit/canoe.obj" type="ArrayMesh" id=20]
+[ext_resource path="res://assets/naturekit/cliff_blockCave_rock.obj" type="ArrayMesh" id=21]
+[ext_resource path="res://assets/naturekit/cliff_blockCave_stone.obj" type="ArrayMesh" id=22]
+[ext_resource path="res://assets/naturekit/cactus_tall.obj" type="ArrayMesh" id=23]
+[ext_resource path="res://assets/naturekit/cliff_blockDiagonal_rock.obj" type="ArrayMesh" id=24]
+[ext_resource path="res://assets/naturekit/bridge_woodRoundNarrow.obj" type="ArrayMesh" id=25]
+[ext_resource path="res://assets/naturekit/bed_floor.obj" type="ArrayMesh" id=26]
+[ext_resource path="res://assets/naturekit/bridge_side_woodRound.obj" type="ArrayMesh" id=27]
+[ext_resource path="res://assets/naturekit/bridge_stoneNarrow.obj" type="ArrayMesh" id=28]
+[ext_resource path="res://assets/naturekit/bridge_stoneRoundNarrow.obj" type="ArrayMesh" id=29]
+[ext_resource path="res://assets/naturekit/cliff_cornerTop_rock.obj" type="ArrayMesh" id=30]
+[ext_resource path="res://assets/naturekit/cliff_cornerTop_stone.obj" type="ArrayMesh" id=31]
+[ext_resource path="res://assets/naturekit/cliff_corner_rock.obj" type="ArrayMesh" id=32]
+[ext_resource path="res://assets/naturekit/cliff_blockHalf_rock.obj" type="ArrayMesh" id=33]
+[ext_resource path="res://assets/naturekit/cliff_blockQuarter_rock.obj" type="ArrayMesh" id=34]
+[ext_resource path="res://assets/naturekit/cliff_blockQuarter_stone.obj" type="ArrayMesh" id=35]
+[ext_resource path="res://assets/naturekit/cliff_blockHalf_stone.obj" type="ArrayMesh" id=36]
+[ext_resource path="res://assets/naturekit/cliff_blockDiagonal_stone.obj" type="ArrayMesh" id=37]
+[ext_resource path="res://assets/naturekit/cliff_blockSlopeWalls_rock.obj" type="ArrayMesh" id=38]
+[ext_resource path="res://assets/naturekit/cliff_blockSlope_stone.obj" type="ArrayMesh" id=39]
+[ext_resource path="res://assets/naturekit/cliff_cornerInnerTop_rock.obj" type="ArrayMesh" id=40]
+[ext_resource path="res://assets/naturekit/cliff_cornerInnerTop_stone.obj" type="ArrayMesh" id=41]
+[ext_resource path="res://assets/naturekit/cliff_cornerInner_rock.obj" type="ArrayMesh" id=42]
+[ext_resource path="res://assets/naturekit/cliff_corner_stone.obj" type="ArrayMesh" id=43]
+[ext_resource path="res://assets/naturekit/cliff_diagonal_rock.obj" type="ArrayMesh" id=44]
+[ext_resource path="res://assets/naturekit/cliff_diagonal_stone.obj" type="ArrayMesh" id=45]
+[ext_resource path="res://assets/naturekit/cliff_cave_stone.obj" type="ArrayMesh" id=46]
+[ext_resource path="res://assets/naturekit/cliff_cave_rock.obj" type="ArrayMesh" id=47]
+[ext_resource path="res://assets/naturekit/cliff_blockSlopeHalfWalls_stone.obj" type="ArrayMesh" id=48]
+[ext_resource path="res://assets/naturekit/cliff_blockSlopeWalls_stone.obj" type="ArrayMesh" id=49]
+[ext_resource path="res://assets/naturekit/cliff_block_rock.obj" type="ArrayMesh" id=50]
+[ext_resource path="res://assets/naturekit/cliff_block_stone.obj" type="ArrayMesh" id=51]
+[ext_resource path="res://assets/naturekit/cliff_blockSlopeHalfWalls_rock.obj" type="ArrayMesh" id=52]
+[ext_resource path="res://assets/naturekit/cliff_cornerInnerLarge_stone.obj" type="ArrayMesh" id=53]
+[ext_resource path="res://assets/naturekit/cliff_cornerInnerLarge_rock.obj" type="ArrayMesh" id=54]
+[ext_resource path="res://assets/naturekit/cliff_cornerInner_stone.obj" type="ArrayMesh" id=55]
+[ext_resource path="res://assets/naturekit/cliff_cornerLarge_rock.obj" type="ArrayMesh" id=56]
+[ext_resource path="res://assets/naturekit/cliff_cornerLarge_stone.obj" type="ArrayMesh" id=57]
+[ext_resource path="res://assets/naturekit/cliff_blockSlope_rock.obj" type="ArrayMesh" id=58]
+[ext_resource path="res://assets/naturekit/crops_dirtRowCorner.obj" type="ArrayMesh" id=59]
+[ext_resource path="res://assets/naturekit/crops_dirtSingle.obj" type="ArrayMesh" id=60]
+[ext_resource path="res://assets/naturekit/cliff_large_rock.obj" type="ArrayMesh" id=61]
+[ext_resource path="res://assets/naturekit/crop_carrot.obj" type="ArrayMesh" id=62]
+[ext_resource path="res://assets/naturekit/cliff_waterfall_stone.obj" type="ArrayMesh" id=63]
+[ext_resource path="res://assets/naturekit/crops_leafsStageA.obj" type="ArrayMesh" id=64]
+[ext_resource path="res://assets/naturekit/cliff_stepsCorner_rock.obj" type="ArrayMesh" id=65]
+[ext_resource path="res://assets/naturekit/crop_melon.obj" type="ArrayMesh" id=66]
+[ext_resource path="res://assets/naturekit/cliff_half_stone.obj" type="ArrayMesh" id=67]
+[ext_resource path="res://assets/naturekit/crops_wheatStageA.obj" type="ArrayMesh" id=68]
+[ext_resource path="res://assets/naturekit/cliff_waterfallTop_stone.obj" type="ArrayMesh" id=69]
+[ext_resource path="res://assets/naturekit/cliff_top_stone.obj" type="ArrayMesh" id=70]
+[ext_resource path="res://assets/naturekit/cliff_waterfall_rock.obj" type="ArrayMesh" id=71]
+[ext_resource path="res://assets/naturekit/crops_cornStageD.obj" type="ArrayMesh" id=72]
+[ext_resource path="res://assets/naturekit/cliff_halfCorner_rock.obj" type="ArrayMesh" id=73]
+[ext_resource path="res://assets/naturekit/cliff_large_stone.obj" type="ArrayMesh" id=74]
+[ext_resource path="res://assets/naturekit/cliff_rock.obj" type="ArrayMesh" id=75]
+[ext_resource path="res://assets/naturekit/cliff_stepsCornerInner_rock.obj" type="ArrayMesh" id=76]
+[ext_resource path="res://assets/naturekit/cliff_topDiagonal_stone.obj" type="ArrayMesh" id=77]
+[ext_resource path="res://assets/naturekit/cliff_waterfallTop_rock.obj" type="ArrayMesh" id=78]
+[ext_resource path="res://assets/naturekit/crops_bambooStageA.obj" type="ArrayMesh" id=79]
+[ext_resource path="res://assets/naturekit/crops_cornStageC.obj" type="ArrayMesh" id=80]
+[ext_resource path="res://assets/naturekit/cliff_top_rock.obj" type="ArrayMesh" id=81]
+[ext_resource path="res://assets/naturekit/crop_turnip.obj" type="ArrayMesh" id=82]
+[ext_resource path="res://assets/naturekit/fence_bend.obj" type="ArrayMesh" id=83]
+[ext_resource path="res://assets/naturekit/crops_dirtDoubleRowCorner.obj" type="ArrayMesh" id=84]
+[ext_resource path="res://assets/naturekit/crops_leafsStageB.obj" type="ArrayMesh" id=85]
+[ext_resource path="res://assets/naturekit/fence_gate.obj" type="ArrayMesh" id=86]
+[ext_resource path="res://assets/naturekit/fence_bendCenter.obj" type="ArrayMesh" id=87]
+[ext_resource path="res://assets/naturekit/fence_planks.obj" type="ArrayMesh" id=88]
+[ext_resource path="res://assets/naturekit/fence_simpleCenter.obj" type="ArrayMesh" id=89]
+[ext_resource path="res://assets/naturekit/crops_wheatStageB.obj" type="ArrayMesh" id=90]
+[ext_resource path="res://assets/naturekit/fence_planksDouble.obj" type="ArrayMesh" id=91]
+[ext_resource path="res://assets/naturekit/fence_simpleDiagonal.obj" type="ArrayMesh" id=92]
+[ext_resource path="res://assets/naturekit/crops_dirtRowEnd.obj" type="ArrayMesh" id=93]
+[ext_resource path="res://assets/naturekit/crops_cornStageA.obj" type="ArrayMesh" id=94]
+[ext_resource path="res://assets/naturekit/crop_pumpkin.obj" type="ArrayMesh" id=95]
+[ext_resource path="res://assets/naturekit/fence_simple.obj" type="ArrayMesh" id=96]
+[ext_resource path="res://assets/naturekit/cliff_topDiagonal_rock.obj" type="ArrayMesh" id=97]
+[ext_resource path="res://assets/naturekit/fence_simpleDiagonalCenter.obj" type="ArrayMesh" id=98]
+[ext_resource path="res://assets/naturekit/fence_corner.obj" type="ArrayMesh" id=99]
+[ext_resource path="res://assets/naturekit/cliff_stone.obj" type="ArrayMesh" id=100]
+[ext_resource path="res://assets/naturekit/cliff_halfCorner_stone.obj" type="ArrayMesh" id=101]
+[ext_resource path="res://assets/naturekit/cliff_steps_stone.obj" type="ArrayMesh" id=102]
+[ext_resource path="res://assets/naturekit/cliff_halfCornerInner_stone.obj" type="ArrayMesh" id=103]
+[ext_resource path="res://assets/naturekit/cliff_steps_rock.obj" type="ArrayMesh" id=104]
+[ext_resource path="res://assets/naturekit/cliff_halfCornerInner_rock.obj" type="ArrayMesh" id=105]
+[ext_resource path="res://assets/naturekit/crops_bambooStageB.obj" type="ArrayMesh" id=106]
+[ext_resource path="res://assets/naturekit/crops_dirtDoubleRowEnd.obj" type="ArrayMesh" id=107]
+[ext_resource path="res://assets/naturekit/crops_dirtRow.obj" type="ArrayMesh" id=108]
+[ext_resource path="res://assets/naturekit/cliff_half_rock.obj" type="ArrayMesh" id=109]
+[ext_resource path="res://assets/naturekit/crops_cornStageB.obj" type="ArrayMesh" id=110]
+[ext_resource path="res://assets/naturekit/crops_dirtDoubleRow.obj" type="ArrayMesh" id=111]
+[ext_resource path="res://assets/naturekit/cliff_stepsCornerInner_stone.obj" type="ArrayMesh" id=112]
+[ext_resource path="res://assets/naturekit/cliff_stepsCorner_stone.obj" type="ArrayMesh" id=113]
+[ext_resource path="res://assets/naturekit/ground_pathSideOpen.obj" type="ArrayMesh" id=114]
+[ext_resource path="res://assets/naturekit/ground_riverSplit.obj" type="ArrayMesh" id=115]
+[ext_resource path="res://assets/naturekit/hanging_moss.obj" type="ArrayMesh" id=116]
+[ext_resource path="res://assets/naturekit/ground_riverSide.obj" type="ArrayMesh" id=117]
+[ext_resource path="res://assets/naturekit/lily_large.obj" type="ArrayMesh" id=118]
+[ext_resource path="res://assets/naturekit/mushroom_redTall.obj" type="ArrayMesh" id=119]
+[ext_resource path="res://assets/naturekit/grass_leafsLarge.obj" type="ArrayMesh" id=120]
+[ext_resource path="res://assets/naturekit/flower_yellowB.obj" type="ArrayMesh" id=121]
+[ext_resource path="res://assets/naturekit/flower_purpleA.obj" type="ArrayMesh" id=122]
+[ext_resource path="res://assets/naturekit/flower_yellowC.obj" type="ArrayMesh" id=123]
+[ext_resource path="res://assets/naturekit/grass_large.obj" type="ArrayMesh" id=124]
+[ext_resource path="res://assets/naturekit/ground_pathCornerSmall.obj" type="ArrayMesh" id=125]
+[ext_resource path="res://assets/naturekit/flower_purpleC.obj" type="ArrayMesh" id=126]
+[ext_resource path="res://assets/naturekit/ground_pathEnd.obj" type="ArrayMesh" id=127]
+[ext_resource path="res://assets/naturekit/ground_pathRocks.obj" type="ArrayMesh" id=128]
+[ext_resource path="res://assets/naturekit/ground_riverBendBank.obj" type="ArrayMesh" id=129]
+[ext_resource path="res://assets/naturekit/ground_riverCornerSmall.obj" type="ArrayMesh" id=130]
+[ext_resource path="res://assets/naturekit/ground_riverBend.obj" type="ArrayMesh" id=131]
+[ext_resource path="res://assets/naturekit/fence_simpleHigh.obj" type="ArrayMesh" id=132]
+[ext_resource path="res://assets/naturekit/ground_riverEnd.obj" type="ArrayMesh" id=133]
+[ext_resource path="res://assets/naturekit/ground_pathBend.obj" type="ArrayMesh" id=134]
+[ext_resource path="res://assets/naturekit/ground_riverRocks.obj" type="ArrayMesh" id=135]
+[ext_resource path="res://assets/naturekit/lily_small.obj" type="ArrayMesh" id=136]
+[ext_resource path="res://assets/naturekit/fence_simpleLow.obj" type="ArrayMesh" id=137]
+[ext_resource path="res://assets/naturekit/flower_purpleB.obj" type="ArrayMesh" id=138]
+[ext_resource path="res://assets/naturekit/flower_redB.obj" type="ArrayMesh" id=139]
+[ext_resource path="res://assets/naturekit/flower_redC.obj" type="ArrayMesh" id=140]
+[ext_resource path="res://assets/naturekit/ground_pathTile.obj" type="ArrayMesh" id=141]
+[ext_resource path="res://assets/naturekit/ground_riverEndClosed.obj" type="ArrayMesh" id=142]
+[ext_resource path="res://assets/naturekit/log_large.obj" type="ArrayMesh" id=143]
+[ext_resource path="res://assets/naturekit/log_stack.obj" type="ArrayMesh" id=144]
+[ext_resource path="res://assets/naturekit/ground_riverTile.obj" type="ArrayMesh" id=145]
+[ext_resource path="res://assets/naturekit/ground_pathCorner.obj" type="ArrayMesh" id=146]
+[ext_resource path="res://assets/naturekit/grass_leafs.obj" type="ArrayMesh" id=147]
+[ext_resource path="res://assets/naturekit/ground_riverStraight.obj" type="ArrayMesh" id=148]
+[ext_resource path="res://assets/naturekit/grass.obj" type="ArrayMesh" id=149]
+[ext_resource path="res://assets/naturekit/ground_riverCross.obj" type="ArrayMesh" id=150]
+[ext_resource path="res://assets/naturekit/mushroom_red.obj" type="ArrayMesh" id=151]
+[ext_resource path="res://assets/naturekit/ground_pathOpen.obj" type="ArrayMesh" id=152]
+[ext_resource path="res://assets/naturekit/log.obj" type="ArrayMesh" id=153]
+[ext_resource path="res://assets/naturekit/log_stackLarge.obj" type="ArrayMesh" id=154]
+[ext_resource path="res://assets/naturekit/mushroom_redGroup.obj" type="ArrayMesh" id=155]
+[ext_resource path="res://assets/naturekit/flower_redA.obj" type="ArrayMesh" id=156]
+[ext_resource path="res://assets/naturekit/ground_grass.obj" type="ArrayMesh" id=157]
+[ext_resource path="res://assets/naturekit/ground_pathEndClosed.obj" type="ArrayMesh" id=158]
+[ext_resource path="res://assets/naturekit/ground_pathSplit.obj" type="ArrayMesh" id=159]
+[ext_resource path="res://assets/naturekit/ground_riverCorner.obj" type="ArrayMesh" id=160]
+[ext_resource path="res://assets/naturekit/ground_pathBendBank.obj" type="ArrayMesh" id=161]
+[ext_resource path="res://assets/naturekit/ground_pathCross.obj" type="ArrayMesh" id=162]
+[ext_resource path="res://assets/naturekit/flower_yellowA.obj" type="ArrayMesh" id=163]
+[ext_resource path="res://assets/naturekit/ground_pathStraight.obj" type="ArrayMesh" id=164]
+[ext_resource path="res://assets/naturekit/ground_riverOpen.obj" type="ArrayMesh" id=165]
+[ext_resource path="res://assets/naturekit/ground_pathSide.obj" type="ArrayMesh" id=166]
+[ext_resource path="res://assets/naturekit/ground_riverSideOpen.obj" type="ArrayMesh" id=167]
+[ext_resource path="res://assets/naturekit/plant_flatTall.obj" type="ArrayMesh" id=168]
+[ext_resource path="res://assets/naturekit/rock_smallH.obj" type="ArrayMesh" id=169]
+[ext_resource path="res://assets/naturekit/path_woodEnd.obj" type="ArrayMesh" id=170]
+[ext_resource path="res://assets/naturekit/plant_bushDetailed.obj" type="ArrayMesh" id=171]
+[ext_resource path="res://assets/naturekit/rock_largeE.obj" type="ArrayMesh" id=172]
+[ext_resource path="res://assets/naturekit/plant_bushLarge.obj" type="ArrayMesh" id=173]
+[ext_resource path="res://assets/naturekit/rock_largeD.obj" type="ArrayMesh" id=174]
+[ext_resource path="res://assets/naturekit/rock_smallFlatA.obj" type="ArrayMesh" id=175]
+[ext_resource path="res://assets/naturekit/rock_tallA.obj" type="ArrayMesh" id=176]
+[ext_resource path="res://assets/naturekit/rock_tallC.obj" type="ArrayMesh" id=177]
+[ext_resource path="res://assets/naturekit/path_stone.obj" type="ArrayMesh" id=178]
+[ext_resource path="res://assets/naturekit/mushroom_tanTall.obj" type="ArrayMesh" id=179]
+[ext_resource path="res://assets/naturekit/plant_bush.obj" type="ArrayMesh" id=180]
+[ext_resource path="res://assets/naturekit/path_stoneCircle.obj" type="ArrayMesh" id=181]
+[ext_resource path="res://assets/naturekit/platform_beach.obj" type="ArrayMesh" id=182]
+[ext_resource path="res://assets/naturekit/plant_bushSmall.obj" type="ArrayMesh" id=183]
+[ext_resource path="res://assets/naturekit/pot_large.obj" type="ArrayMesh" id=184]
+[ext_resource path="res://assets/naturekit/rock_largeC.obj" type="ArrayMesh" id=185]
+[ext_resource path="res://assets/naturekit/rock_smallD.obj" type="ArrayMesh" id=186]
+[ext_resource path="res://assets/naturekit/rock_smallFlatC.obj" type="ArrayMesh" id=187]
+[ext_resource path="res://assets/naturekit/rock_smallB.obj" type="ArrayMesh" id=188]
+[ext_resource path="res://assets/naturekit/rock_smallI.obj" type="ArrayMesh" id=189]
+[ext_resource path="res://assets/naturekit/rock_smallA.obj" type="ArrayMesh" id=190]
+[ext_resource path="res://assets/naturekit/rock_tallD.obj" type="ArrayMesh" id=191]
+[ext_resource path="res://assets/naturekit/rock_tallE.obj" type="ArrayMesh" id=192]
+[ext_resource path="res://assets/naturekit/path_stoneCorner.obj" type="ArrayMesh" id=193]
+[ext_resource path="res://assets/naturekit/rock_tallB.obj" type="ArrayMesh" id=194]
+[ext_resource path="res://assets/naturekit/rock_tallF.obj" type="ArrayMesh" id=195]
+[ext_resource path="res://assets/naturekit/path_wood.obj" type="ArrayMesh" id=196]
+[ext_resource path="res://assets/naturekit/platform_grass.obj" type="ArrayMesh" id=197]
+[ext_resource path="res://assets/naturekit/rock_smallE.obj" type="ArrayMesh" id=198]
+[ext_resource path="res://assets/naturekit/rock_smallTopA.obj" type="ArrayMesh" id=199]
+[ext_resource path="res://assets/naturekit/path_woodCorner.obj" type="ArrayMesh" id=200]
+[ext_resource path="res://assets/naturekit/rock_smallC.obj" type="ArrayMesh" id=201]
+[ext_resource path="res://assets/naturekit/mushroom_tanGroup.obj" type="ArrayMesh" id=202]
+[ext_resource path="res://assets/naturekit/plant_bushLargeTriangle.obj" type="ArrayMesh" id=203]
+[ext_resource path="res://assets/naturekit/rock_tallG.obj" type="ArrayMesh" id=204]
+[ext_resource path="res://assets/naturekit/rock_tallH.obj" type="ArrayMesh" id=205]
+[ext_resource path="res://assets/naturekit/rock_tallJ.obj" type="ArrayMesh" id=206]
+[ext_resource path="res://assets/naturekit/rock_smallTopB.obj" type="ArrayMesh" id=207]
+[ext_resource path="res://assets/naturekit/sign.obj" type="ArrayMesh" id=208]
+[ext_resource path="res://assets/naturekit/path_stoneEnd.obj" type="ArrayMesh" id=209]
+[ext_resource path="res://assets/naturekit/rock_tallI.obj" type="ArrayMesh" id=210]
+[ext_resource path="res://assets/naturekit/rock_smallG.obj" type="ArrayMesh" id=211]
+[ext_resource path="res://assets/naturekit/statue_block.obj" type="ArrayMesh" id=212]
+[ext_resource path="res://assets/naturekit/statue_column.obj" type="ArrayMesh" id=213]
+[ext_resource path="res://assets/naturekit/plant_bushTriangle.obj" type="ArrayMesh" id=214]
+[ext_resource path="res://assets/naturekit/plant_flatShort.obj" type="ArrayMesh" id=215]
+[ext_resource path="res://assets/naturekit/rock_largeF.obj" type="ArrayMesh" id=216]
+[ext_resource path="res://assets/naturekit/rock_smallFlatB.obj" type="ArrayMesh" id=217]
+[ext_resource path="res://assets/naturekit/mushroom_tan.obj" type="ArrayMesh" id=218]
+[ext_resource path="res://assets/naturekit/pot_small.obj" type="ArrayMesh" id=219]
+[ext_resource path="res://assets/naturekit/rock_largeB.obj" type="ArrayMesh" id=220]
+[ext_resource path="res://assets/naturekit/platform_stone.obj" type="ArrayMesh" id=221]
+[ext_resource path="res://assets/naturekit/rock_largeA.obj" type="ArrayMesh" id=222]
+[ext_resource path="res://assets/naturekit/rock_smallF.obj" type="ArrayMesh" id=223]
+[ext_resource path="res://assets/naturekit/tree_default_fall.obj" type="ArrayMesh" id=224]
+[ext_resource path="res://assets/naturekit/stone_smallE.obj" type="ArrayMesh" id=225]
+[ext_resource path="res://assets/naturekit/stone_smallC.obj" type="ArrayMesh" id=226]
+[ext_resource path="res://assets/naturekit/stone_tallF.obj" type="ArrayMesh" id=227]
+[ext_resource path="res://assets/naturekit/tree_blocks.obj" type="ArrayMesh" id=228]
+[ext_resource path="res://assets/naturekit/stone_smallI.obj" type="ArrayMesh" id=229]
+[ext_resource path="res://assets/naturekit/tree_blocks_fall.obj" type="ArrayMesh" id=230]
+[ext_resource path="res://assets/naturekit/tree_detailed_fall.obj" type="ArrayMesh" id=231]
+[ext_resource path="res://assets/naturekit/tree_fat.obj" type="ArrayMesh" id=232]
+[ext_resource path="res://assets/naturekit/stone_tallG.obj" type="ArrayMesh" id=233]
+[ext_resource path="res://assets/naturekit/tent_smallOpen.obj" type="ArrayMesh" id=234]
+[ext_resource path="res://assets/naturekit/tree_default.obj" type="ArrayMesh" id=235]
+[ext_resource path="res://assets/naturekit/stone_smallFlatB.obj" type="ArrayMesh" id=236]
+[ext_resource path="res://assets/naturekit/stone_smallTopA.obj" type="ArrayMesh" id=237]
+[ext_resource path="res://assets/naturekit/stone_tallE.obj" type="ArrayMesh" id=238]
+[ext_resource path="res://assets/naturekit/stone_smallFlatA.obj" type="ArrayMesh" id=239]
+[ext_resource path="res://assets/naturekit/stone_largeB.obj" type="ArrayMesh" id=240]
+[ext_resource path="res://assets/naturekit/stone_largeD.obj" type="ArrayMesh" id=241]
+[ext_resource path="res://assets/naturekit/stump_round.obj" type="ArrayMesh" id=242]
+[ext_resource path="res://assets/naturekit/stone_tallB.obj" type="ArrayMesh" id=243]
+[ext_resource path="res://assets/naturekit/tent_detailedClosed.obj" type="ArrayMesh" id=244]
+[ext_resource path="res://assets/naturekit/stump_square.obj" type="ArrayMesh" id=245]
+[ext_resource path="res://assets/naturekit/tree_blocks_dark.obj" type="ArrayMesh" id=246]
+[ext_resource path="res://assets/naturekit/stone_tallD.obj" type="ArrayMesh" id=247]
+[ext_resource path="res://assets/naturekit/tree_cone.obj" type="ArrayMesh" id=248]
+[ext_resource path="res://assets/naturekit/tree_default_dark.obj" type="ArrayMesh" id=249]
+[ext_resource path="res://assets/naturekit/stone_largeA.obj" type="ArrayMesh" id=250]
+[ext_resource path="res://assets/naturekit/stone_smallB.obj" type="ArrayMesh" id=251]
+[ext_resource path="res://assets/naturekit/stone_smallFlatC.obj" type="ArrayMesh" id=252]
+[ext_resource path="res://assets/naturekit/stone_tallA.obj" type="ArrayMesh" id=253]
+[ext_resource path="res://assets/naturekit/stump_oldTall.obj" type="ArrayMesh" id=254]
+[ext_resource path="res://assets/naturekit/tent_smallClosed.obj" type="ArrayMesh" id=255]
+[ext_resource path="res://assets/naturekit/tree_detailed.obj" type="ArrayMesh" id=256]
+[ext_resource path="res://assets/naturekit/tree_detailed_dark.obj" type="ArrayMesh" id=257]
+[ext_resource path="res://assets/naturekit/stone_smallF.obj" type="ArrayMesh" id=258]
+[ext_resource path="res://assets/naturekit/stone_tallC.obj" type="ArrayMesh" id=259]
+[ext_resource path="res://assets/naturekit/stone_tallI.obj" type="ArrayMesh" id=260]
+[ext_resource path="res://assets/naturekit/statue_head.obj" type="ArrayMesh" id=261]
+[ext_resource path="res://assets/naturekit/statue_obelisk.obj" type="ArrayMesh" id=262]
+[ext_resource path="res://assets/naturekit/statue_columnDamaged.obj" type="ArrayMesh" id=263]
+[ext_resource path="res://assets/naturekit/stone_largeF.obj" type="ArrayMesh" id=264]
+[ext_resource path="res://assets/naturekit/stone_smallG.obj" type="ArrayMesh" id=265]
+[ext_resource path="res://assets/naturekit/statue_ring.obj" type="ArrayMesh" id=266]
+[ext_resource path="res://assets/naturekit/stone_smallD.obj" type="ArrayMesh" id=267]
+[ext_resource path="res://assets/naturekit/stone_smallH.obj" type="ArrayMesh" id=268]
+[ext_resource path="res://assets/naturekit/stone_smallA.obj" type="ArrayMesh" id=269]
+[ext_resource path="res://assets/naturekit/stone_tallH.obj" type="ArrayMesh" id=270]
+[ext_resource path="res://assets/naturekit/stone_tallJ.obj" type="ArrayMesh" id=271]
+[ext_resource path="res://assets/naturekit/stump_roundDetailed.obj" type="ArrayMesh" id=272]
+[ext_resource path="res://assets/naturekit/stone_largeC.obj" type="ArrayMesh" id=273]
+[ext_resource path="res://assets/naturekit/stone_smallTopB.obj" type="ArrayMesh" id=274]
+[ext_resource path="res://assets/naturekit/stump_squareDetailedWide.obj" type="ArrayMesh" id=275]
+[ext_resource path="res://assets/naturekit/stone_largeE.obj" type="ArrayMesh" id=276]
+[ext_resource path="res://assets/naturekit/stump_old.obj" type="ArrayMesh" id=277]
+[ext_resource path="res://assets/naturekit/stump_squareDetailed.obj" type="ArrayMesh" id=278]
+[ext_resource path="res://assets/naturekit/tent_detailedOpen.obj" type="ArrayMesh" id=279]
+[ext_resource path="res://assets/naturekit/tree_cone_dark.obj" type="ArrayMesh" id=280]
+[ext_resource path="res://assets/naturekit/tree_cone_fall.obj" type="ArrayMesh" id=281]
+[ext_resource path="res://assets/naturekit/tree_simple_dark.obj" type="ArrayMesh" id=282]
+[ext_resource path="res://assets/naturekit/tree_thin_dark.obj" type="ArrayMesh" id=283]
+[ext_resource path="res://assets/naturekit/tree_palmDetailedShort.obj" type="ArrayMesh" id=284]
+[ext_resource path="res://assets/naturekit/tree_pineTallA.obj" type="ArrayMesh" id=285]
+[ext_resource path="res://assets/naturekit/tree_fat_fall.obj" type="ArrayMesh" id=286]
+[ext_resource path="res://assets/naturekit/tree_pineTallB_detailed.obj" type="ArrayMesh" id=287]
+[ext_resource path="res://assets/naturekit/tree_plateau_fall.obj" type="ArrayMesh" id=288]
+[ext_resource path="res://assets/naturekit/tree_tall_fall.obj" type="ArrayMesh" id=289]
+[ext_resource path="res://assets/naturekit/tree_pineTallB.obj" type="ArrayMesh" id=290]
+[ext_resource path="res://assets/naturekit/tree_pineGroundB.obj" type="ArrayMesh" id=291]
+[ext_resource path="res://assets/naturekit/tree_palmBend.obj" type="ArrayMesh" id=292]
+[ext_resource path="res://assets/naturekit/tree_pineSmallB.obj" type="ArrayMesh" id=293]
+[ext_resource path="res://assets/naturekit/tree_pineRoundE.obj" type="ArrayMesh" id=294]
+[ext_resource path="res://assets/naturekit/tree_thin.obj" type="ArrayMesh" id=295]
+[ext_resource path="res://assets/naturekit/tree_pineRoundF.obj" type="ArrayMesh" id=296]
+[ext_resource path="res://assets/naturekit/tree_pineSmallA.obj" type="ArrayMesh" id=297]
+[ext_resource path="res://assets/naturekit/tree_pineTallD_detailed.obj" type="ArrayMesh" id=298]
+[ext_resource path="res://assets/naturekit/tree_palmDetailedTall.obj" type="ArrayMesh" id=299]
+[ext_resource path="res://assets/naturekit/tree_tall_dark.obj" type="ArrayMesh" id=300]
+[ext_resource path="res://assets/naturekit/tree_pineSmallD.obj" type="ArrayMesh" id=301]
+[ext_resource path="res://assets/naturekit/tree_palm.obj" type="ArrayMesh" id=302]
+[ext_resource path="res://assets/naturekit/tree_small.obj" type="ArrayMesh" id=303]
+[ext_resource path="res://assets/naturekit/tree_pineTallD.obj" type="ArrayMesh" id=304]
+[ext_resource path="res://assets/naturekit/tree_plateau_dark.obj" type="ArrayMesh" id=305]
+[ext_resource path="res://assets/naturekit/tree_oak_dark.obj" type="ArrayMesh" id=306]
+[ext_resource path="res://assets/naturekit/tree_oak.obj" type="ArrayMesh" id=307]
+[ext_resource path="res://assets/naturekit/tree_pineRoundA.obj" type="ArrayMesh" id=308]
+[ext_resource path="res://assets/naturekit/tree_simple.obj" type="ArrayMesh" id=309]
+[ext_resource path="res://assets/naturekit/tree_simple_fall.obj" type="ArrayMesh" id=310]
+[ext_resource path="res://assets/naturekit/tree_small_dark.obj" type="ArrayMesh" id=311]
+[ext_resource path="res://assets/naturekit/tree_pineTallC.obj" type="ArrayMesh" id=312]
+[ext_resource path="res://assets/naturekit/tree_palmTall.obj" type="ArrayMesh" id=313]
+[ext_resource path="res://assets/naturekit/tree_pineRoundD.obj" type="ArrayMesh" id=314]
+[ext_resource path="res://assets/naturekit/tree_pineSmallC.obj" type="ArrayMesh" id=315]
+[ext_resource path="res://assets/naturekit/tree_fat_darkh.obj" type="ArrayMesh" id=316]
+[ext_resource path="res://assets/naturekit/tree_small_fall.obj" type="ArrayMesh" id=317]
+[ext_resource path="res://assets/naturekit/tree_pineDefaultB.obj" type="ArrayMesh" id=318]
+[ext_resource path="res://assets/naturekit/tree_pineTallA_detailed.obj" type="ArrayMesh" id=319]
+[ext_resource path="res://assets/naturekit/tree_oak_fall.obj" type="ArrayMesh" id=320]
+[ext_resource path="res://assets/naturekit/tree_palmShort.obj" type="ArrayMesh" id=321]
+[ext_resource path="res://assets/naturekit/tree_pineGroundA.obj" type="ArrayMesh" id=322]
+[ext_resource path="res://assets/naturekit/tree_pineRoundB.obj" type="ArrayMesh" id=323]
+[ext_resource path="res://assets/naturekit/tree_pineDefaultA.obj" type="ArrayMesh" id=324]
+[ext_resource path="res://assets/naturekit/tree_pineRoundC.obj" type="ArrayMesh" id=325]
+[ext_resource path="res://assets/naturekit/tree_pineTallC_detailed.obj" type="ArrayMesh" id=326]
+[ext_resource path="res://assets/naturekit/tree_plateau.obj" type="ArrayMesh" id=327]
+[ext_resource path="res://assets/naturekit/tree_tall.obj" type="ArrayMesh" id=328]
+[ext_resource path="res://assets/naturekit/tree_thin_fall.obj" type="ArrayMesh" id=329]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="bed" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 1 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="bed_floor" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 26 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="bridge_center_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 14 )
+material/0 = null
+material/1 = null
+
+[node name="bridge_center_stoneRound" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 3 )
+material/0 = null
+material/1 = null
+
+[node name="bridge_center_wood" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 2 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="bridge_center_woodRound" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 7 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="bridge_side_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 15 )
+material/0 = null
+material/1 = null
+
+[node name="bridge_side_stoneRound" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 16 )
+material/0 = null
+material/1 = null
+
+[node name="bridge_side_wood" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 11 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="bridge_side_woodRound" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 27 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="bridge_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 4 )
+material/0 = null
+material/1 = null
+
+[node name="bridge_stoneNarrow" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 28 )
+material/0 = null
+material/1 = null
+
+[node name="bridge_stoneRound" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 5 )
+material/0 = null
+material/1 = null
+
+[node name="bridge_stoneRoundNarrow" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 29 )
+material/0 = null
+material/1 = null
+
+[node name="bridge_wood" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 6 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="bridge_woodNarrow" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 10 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="bridge_woodRound" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 17 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="bridge_woodRoundNarrow" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 25 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="cactus_short" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 8 )
+material/0 = null
+
+[node name="cactus_tall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 23 )
+material/0 = null
+
+[node name="campfire_bricks" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 12 )
+material/0 = null
+
+[node name="campfire_logs" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 19 )
+material/0 = null
+material/1 = null
+
+[node name="campfire_planks" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 13 )
+material/0 = null
+
+[node name="campfire_stones" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 18 )
+material/0 = null
+
+[node name="canoe" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 20 )
+material/0 = null
+material/1 = null
+
+[node name="canoe_paddle" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 9 )
+material/0 = null
+
+[node name="cliff_blockCave_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 21 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_blockCave_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 22 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_blockDiagonal_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 24 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_blockDiagonal_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 37 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_blockHalf_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 33 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_blockHalf_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 36 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_blockQuarter_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 34 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_blockQuarter_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 35 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_blockSlopeHalfWalls_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 52 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_blockSlopeHalfWalls_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 48 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_blockSlopeWalls_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 38 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_blockSlopeWalls_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 49 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_blockSlope_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 58 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_blockSlope_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 39 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_block_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 50 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_block_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 51 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_cave_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 47 )
+material/0 = null
+
+[node name="cliff_cave_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 46 )
+material/0 = null
+
+[node name="cliff_cornerInnerLarge_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 54 )
+material/0 = null
+
+[node name="cliff_cornerInnerLarge_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 53 )
+material/0 = null
+
+[node name="cliff_cornerInnerTop_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 40 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_cornerInnerTop_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 41 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_cornerInner_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 42 )
+material/0 = null
+
+[node name="cliff_cornerInner_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 55 )
+material/0 = null
+
+[node name="cliff_cornerLarge_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 56 )
+material/0 = null
+
+[node name="cliff_cornerLarge_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 57 )
+material/0 = null
+
+[node name="cliff_cornerTop_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 30 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_cornerTop_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 31 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_corner_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 32 )
+material/0 = null
+
+[node name="cliff_corner_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 43 )
+material/0 = null
+
+[node name="cliff_diagonal_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 44 )
+material/0 = null
+
+[node name="cliff_diagonal_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 45 )
+material/0 = null
+
+[node name="cliff_halfCornerInner_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 105 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="cliff_halfCornerInner_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 103 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="cliff_halfCorner_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 73 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_halfCorner_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 101 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_half_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 109 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_half_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 67 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_large_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 61 )
+material/0 = null
+
+[node name="cliff_large_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 74 )
+material/0 = null
+
+[node name="cliff_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 75 )
+material/0 = null
+
+[node name="cliff_stepsCornerInner_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 76 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_stepsCornerInner_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 112 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_stepsCorner_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 65 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_stepsCorner_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 113 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_steps_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 104 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_steps_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 102 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 100 )
+material/0 = null
+
+[node name="cliff_topDiagonal_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 97 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_topDiagonal_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 77 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_top_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 81 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_top_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 70 )
+material/0 = null
+material/1 = null
+
+[node name="cliff_waterfallTop_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 78 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="cliff_waterfallTop_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 69 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+
+[node name="cliff_waterfall_rock" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 71 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="cliff_waterfall_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 63 )
+material/0 = null
+material/1 = null
+
+[node name="crops_bambooStageA" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 79 )
+material/0 = null
+
+[node name="crops_bambooStageB" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 106 )
+material/0 = null
+
+[node name="crops_cornStageA" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 94 )
+material/0 = null
+
+[node name="crops_cornStageB" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 110 )
+material/0 = null
+
+[node name="crops_cornStageC" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 80 )
+material/0 = null
+
+[node name="crops_cornStageD" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 72 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+material/5 = null
+material/6 = null
+material/7 = null
+material/8 = null
+
+[node name="crops_dirtDoubleRow" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 111 )
+material/0 = null
+material/1 = null
+
+[node name="crops_dirtDoubleRowCorner" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 84 )
+material/0 = null
+material/1 = null
+
+[node name="crops_dirtDoubleRowEnd" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 107 )
+material/0 = null
+material/1 = null
+
+[node name="crops_dirtRow" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 108 )
+material/0 = null
+material/1 = null
+
+[node name="crops_dirtRowCorner" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 59 )
+material/0 = null
+material/1 = null
+
+[node name="crops_dirtRowEnd" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 93 )
+material/0 = null
+material/1 = null
+
+[node name="crops_dirtSingle" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 60 )
+material/0 = null
+material/1 = null
+
+[node name="crops_leafsStageA" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 64 )
+material/0 = null
+
+[node name="crops_leafsStageB" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 85 )
+material/0 = null
+
+[node name="crops_wheatStageA" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 68 )
+material/0 = null
+
+[node name="crops_wheatStageB" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 90 )
+material/0 = null
+material/1 = null
+
+[node name="crop_carrot" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 62 )
+material/0 = null
+material/1 = null
+
+[node name="crop_melon" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 66 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="crop_pumpkin" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 95 )
+material/0 = null
+material/1 = null
+
+[node name="crop_turnip" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 82 )
+material/0 = null
+material/1 = null
+
+[node name="fence_bend" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 83 )
+material/0 = null
+material/1 = null
+
+[node name="fence_bendCenter" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 87 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="fence_corner" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 99 )
+material/0 = null
+material/1 = null
+
+[node name="fence_gate" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 86 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="fence_planks" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 88 )
+material/0 = null
+
+[node name="fence_planksDouble" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 91 )
+material/0 = null
+
+[node name="fence_simple" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 96 )
+material/0 = null
+material/1 = null
+
+[node name="fence_simpleCenter" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 89 )
+material/0 = null
+material/1 = null
+
+[node name="fence_simpleDiagonal" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 92 )
+material/0 = null
+material/1 = null
+
+[node name="fence_simpleDiagonalCenter" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 98 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="fence_simpleHigh" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 132 )
+material/0 = null
+
+[node name="fence_simpleLow" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 137 )
+material/0 = null
+
+[node name="flower_purpleA" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 122 )
+material/0 = null
+material/1 = null
+
+[node name="flower_purpleB" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 138 )
+material/0 = null
+material/1 = null
+
+[node name="flower_purpleC" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 126 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="flower_redA" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 156 )
+material/0 = null
+material/1 = null
+
+[node name="flower_redB" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 139 )
+material/0 = null
+material/1 = null
+
+[node name="flower_redC" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 140 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="flower_yellowA" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 163 )
+material/0 = null
+material/1 = null
+
+[node name="flower_yellowB" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 121 )
+material/0 = null
+material/1 = null
+
+[node name="flower_yellowC" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 123 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="grass" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 149 )
+material/0 = null
+
+[node name="grass_large" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 124 )
+material/0 = null
+
+[node name="grass_leafs" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 147 )
+material/0 = null
+
+[node name="grass_leafsLarge" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 120 )
+material/0 = null
+
+[node name="ground_grass" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 157 )
+material/0 = null
+
+[node name="ground_pathBend" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 134 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="ground_pathBendBank" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 161 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="ground_pathCorner" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 146 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="ground_pathCornerSmall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 125 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="ground_pathCross" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 162 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="ground_pathEnd" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 127 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="ground_pathEndClosed" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 158 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="ground_pathOpen" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 152 )
+material/0 = null
+
+[node name="ground_pathRocks" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 128 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="ground_pathSide" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 166 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="ground_pathSideOpen" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 114 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="ground_pathSplit" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 159 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="ground_pathStraight" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 164 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="ground_pathTile" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 141 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="ground_riverBend" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 131 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="ground_riverBendBank" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 129 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="ground_riverCorner" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 160 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="ground_riverCornerSmall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 130 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="ground_riverCross" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 150 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="ground_riverEnd" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 133 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="ground_riverEndClosed" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 142 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="ground_riverOpen" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 165 )
+material/0 = null
+
+[node name="ground_riverRocks" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 135 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+material/4 = null
+
+[node name="ground_riverSide" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 117 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="ground_riverSideOpen" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 167 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="ground_riverSplit" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 115 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="ground_riverStraight" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 148 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="ground_riverTile" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 145 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="hanging_moss" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 116 )
+material/0 = null
+
+[node name="lily_large" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 118 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="lily_small" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 136 )
+material/0 = null
+material/1 = null
+
+[node name="log" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 153 )
+material/0 = null
+material/1 = null
+
+[node name="log_large" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 143 )
+material/0 = null
+material/1 = null
+
+[node name="log_stack" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 144 )
+material/0 = null
+material/1 = null
+
+[node name="log_stackLarge" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 154 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="mushroom_red" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 151 )
+material/0 = null
+material/1 = null
+
+[node name="mushroom_redGroup" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 155 )
+material/0 = null
+material/1 = null
+
+[node name="mushroom_redTall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 119 )
+material/0 = null
+material/1 = null
+
+[node name="mushroom_tan" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 218 )
+material/0 = null
+material/1 = null
+
+[node name="mushroom_tanGroup" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 202 )
+material/0 = null
+material/1 = null
+
+[node name="mushroom_tanTall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 179 )
+material/0 = null
+material/1 = null
+
+[node name="path_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 178 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="path_stoneCircle" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 181 )
+material/0 = null
+material/1 = null
+
+[node name="path_stoneCorner" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 193 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="path_stoneEnd" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 209 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="path_wood" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 196 )
+material/0 = null
+material/1 = null
+
+[node name="path_woodCorner" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 200 )
+material/0 = null
+material/1 = null
+
+[node name="path_woodEnd" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 170 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="plant_bush" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 180 )
+material/0 = null
+
+[node name="plant_bushDetailed" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 171 )
+material/0 = null
+
+[node name="plant_bushLarge" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 173 )
+material/0 = null
+
+[node name="plant_bushLargeTriangle" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 203 )
+material/0 = null
+
+[node name="plant_bushSmall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 183 )
+material/0 = null
+
+[node name="plant_bushTriangle" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 214 )
+material/0 = null
+
+[node name="plant_flatShort" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 215 )
+material/0 = null
+
+[node name="plant_flatTall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 168 )
+material/0 = null
+
+[node name="platform_beach" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 182 )
+material/0 = null
+
+[node name="platform_grass" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 197 )
+material/0 = null
+material/1 = null
+
+[node name="platform_stone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 221 )
+material/0 = null
+material/1 = null
+
+[node name="pot_large" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 184 )
+material/0 = null
+material/1 = null
+
+[node name="pot_small" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 219 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="rock_largeA" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 222 )
+material/0 = null
+material/1 = null
+
+[node name="rock_largeB" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 220 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="rock_largeC" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 185 )
+material/0 = null
+material/1 = null
+
+[node name="rock_largeD" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 174 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="rock_largeE" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 172 )
+material/0 = null
+material/1 = null
+
+[node name="rock_largeF" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 216 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="rock_smallA" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 190 )
+material/0 = null
+material/1 = null
+
+[node name="rock_smallB" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 188 )
+material/0 = null
+material/1 = null
+
+[node name="rock_smallC" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 201 )
+material/0 = null
+material/1 = null
+
+[node name="rock_smallD" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 186 )
+material/0 = null
+material/1 = null
+
+[node name="rock_smallE" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 198 )
+material/0 = null
+material/1 = null
+
+[node name="rock_smallF" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 223 )
+material/0 = null
+material/1 = null
+
+[node name="rock_smallFlatA" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 175 )
+material/0 = null
+material/1 = null
+
+[node name="rock_smallFlatB" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 217 )
+material/0 = null
+material/1 = null
+
+[node name="rock_smallFlatC" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 187 )
+material/0 = null
+material/1 = null
+
+[node name="rock_smallG" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 211 )
+material/0 = null
+material/1 = null
+
+[node name="rock_smallH" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 169 )
+material/0 = null
+material/1 = null
+
+[node name="rock_smallI" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 189 )
+material/0 = null
+material/1 = null
+
+[node name="rock_smallTopA" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 199 )
+material/0 = null
+material/1 = null
+
+[node name="rock_smallTopB" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 207 )
+material/0 = null
+material/1 = null
+
+[node name="rock_tallA" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 176 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="rock_tallB" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 194 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="rock_tallC" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 177 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="rock_tallD" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 191 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="rock_tallE" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 192 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="rock_tallF" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 195 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="rock_tallG" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 204 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="rock_tallH" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 205 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="rock_tallI" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 210 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="rock_tallJ" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 206 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="sign" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 208 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="statue_block" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 212 )
+material/0 = null
+material/1 = null
+
+[node name="statue_column" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 213 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="statue_columnDamaged" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 263 )
+material/0 = null
+material/1 = null
+
+[node name="statue_head" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 261 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="statue_obelisk" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 262 )
+material/0 = null
+material/1 = null
+
+[node name="statue_ring" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 266 )
+material/0 = null
+material/1 = null
+
+[node name="stone_largeA" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 250 )
+material/0 = null
+
+[node name="stone_largeB" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 240 )
+material/0 = null
+material/1 = null
+
+[node name="stone_largeC" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 273 )
+material/0 = null
+
+[node name="stone_largeD" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 241 )
+material/0 = null
+material/1 = null
+
+[node name="stone_largeE" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 276 )
+material/0 = null
+
+[node name="stone_largeF" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 264 )
+material/0 = null
+material/1 = null
+
+[node name="stone_smallA" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 269 )
+material/0 = null
+
+[node name="stone_smallB" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 251 )
+material/0 = null
+
+[node name="stone_smallC" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 226 )
+material/0 = null
+
+[node name="stone_smallD" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 267 )
+material/0 = null
+
+[node name="stone_smallE" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 225 )
+material/0 = null
+
+[node name="stone_smallF" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 258 )
+material/0 = null
+
+[node name="stone_smallFlatA" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 239 )
+material/0 = null
+
+[node name="stone_smallFlatB" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 236 )
+material/0 = null
+
+[node name="stone_smallFlatC" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 252 )
+material/0 = null
+
+[node name="stone_smallG" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 265 )
+material/0 = null
+
+[node name="stone_smallH" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 268 )
+material/0 = null
+
+[node name="stone_smallI" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 229 )
+material/0 = null
+
+[node name="stone_smallTopA" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 237 )
+material/0 = null
+
+[node name="stone_smallTopB" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 274 )
+material/0 = null
+
+[node name="stone_tallA" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 253 )
+material/0 = null
+material/1 = null
+
+[node name="stone_tallB" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 243 )
+material/0 = null
+material/1 = null
+
+[node name="stone_tallC" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 259 )
+material/0 = null
+material/1 = null
+
+[node name="stone_tallD" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 247 )
+material/0 = null
+material/1 = null
+
+[node name="stone_tallE" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 238 )
+material/0 = null
+material/1 = null
+
+[node name="stone_tallF" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 227 )
+material/0 = null
+material/1 = null
+
+[node name="stone_tallG" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 233 )
+material/0 = null
+material/1 = null
+
+[node name="stone_tallH" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 270 )
+material/0 = null
+material/1 = null
+
+[node name="stone_tallI" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 260 )
+material/0 = null
+material/1 = null
+
+[node name="stone_tallJ" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 271 )
+material/0 = null
+material/1 = null
+
+[node name="stump_old" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 277 )
+material/0 = null
+
+[node name="stump_oldTall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 254 )
+material/0 = null
+
+[node name="stump_round" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 242 )
+material/0 = null
+material/1 = null
+
+[node name="stump_roundDetailed" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 272 )
+material/0 = null
+material/1 = null
+
+[node name="stump_square" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 245 )
+material/0 = null
+material/1 = null
+
+[node name="stump_squareDetailed" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 278 )
+material/0 = null
+material/1 = null
+
+[node name="stump_squareDetailedWide" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 275 )
+material/0 = null
+material/1 = null
+
+[node name="tent_detailedClosed" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 244 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="tent_detailedOpen" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 279 )
+material/0 = null
+material/1 = null
+
+[node name="tent_smallClosed" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 255 )
+material/0 = null
+material/1 = null
+material/2 = null
+material/3 = null
+
+[node name="tent_smallOpen" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 234 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="tree_blocks" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 228 )
+material/0 = null
+material/1 = null
+
+[node name="tree_blocks_dark" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 246 )
+material/0 = null
+material/1 = null
+
+[node name="tree_blocks_fall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 230 )
+material/0 = null
+material/1 = null
+
+[node name="tree_cone" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 248 )
+material/0 = null
+material/1 = null
+
+[node name="tree_cone_dark" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 280 )
+material/0 = null
+material/1 = null
+
+[node name="tree_cone_fall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 281 )
+material/0 = null
+material/1 = null
+
+[node name="tree_default" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 235 )
+material/0 = null
+material/1 = null
+
+[node name="tree_default_dark" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 249 )
+material/0 = null
+material/1 = null
+
+[node name="tree_default_fall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 224 )
+material/0 = null
+material/1 = null
+
+[node name="tree_detailed" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 256 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="tree_detailed_dark" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 257 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="tree_detailed_fall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 231 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="tree_fat" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 232 )
+material/0 = null
+material/1 = null
+
+[node name="tree_fat_darkh" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 316 )
+material/0 = null
+material/1 = null
+
+[node name="tree_fat_fall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 286 )
+material/0 = null
+material/1 = null
+
+[node name="tree_oak" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 307 )
+material/0 = null
+material/1 = null
+
+[node name="tree_oak_dark" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 306 )
+material/0 = null
+material/1 = null
+
+[node name="tree_oak_fall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 320 )
+material/0 = null
+material/1 = null
+
+[node name="tree_palm" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 302 )
+material/0 = null
+material/1 = null
+
+[node name="tree_palmBend" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 292 )
+material/0 = null
+material/1 = null
+
+[node name="tree_palmDetailedShort" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 284 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="tree_palmDetailedTall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 299 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="tree_palmShort" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 321 )
+material/0 = null
+material/1 = null
+
+[node name="tree_palmTall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 313 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineDefaultA" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 324 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineDefaultB" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 318 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineGroundA" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 322 )
+material/0 = null
+
+[node name="tree_pineGroundB" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 291 )
+material/0 = null
+
+[node name="tree_pineRoundA" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 308 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineRoundB" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 323 )
+material/0 = null
+material/1 = null
+material/2 = null
+
+[node name="tree_pineRoundC" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 325 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineRoundD" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 314 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineRoundE" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 294 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineRoundF" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 296 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineSmallA" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 297 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineSmallB" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 293 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineSmallC" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 315 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineSmallD" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 301 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineTallA" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 285 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineTallA_detailed" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 319 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineTallB" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 290 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineTallB_detailed" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 287 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineTallC" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 312 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineTallC_detailed" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 326 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineTallD" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 304 )
+material/0 = null
+material/1 = null
+
+[node name="tree_pineTallD_detailed" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 298 )
+material/0 = null
+material/1 = null
+
+[node name="tree_plateau" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 327 )
+material/0 = null
+material/1 = null
+
+[node name="tree_plateau_dark" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 305 )
+material/0 = null
+material/1 = null
+
+[node name="tree_plateau_fall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 288 )
+material/0 = null
+material/1 = null
+
+[node name="tree_simple" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 309 )
+material/0 = null
+material/1 = null
+
+[node name="tree_simple_dark" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 282 )
+material/0 = null
+material/1 = null
+
+[node name="tree_simple_fall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 310 )
+material/0 = null
+material/1 = null
+
+[node name="tree_small" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 303 )
+material/0 = null
+material/1 = null
+
+[node name="tree_small_dark" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 311 )
+material/0 = null
+material/1 = null
+
+[node name="tree_small_fall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 317 )
+material/0 = null
+material/1 = null
+
+[node name="tree_tall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 328 )
+material/0 = null
+material/1 = null
+
+[node name="tree_tall_dark" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 300 )
+material/0 = null
+material/1 = null
+
+[node name="tree_tall_fall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 289 )
+material/0 = null
+material/1 = null
+
+[node name="tree_thin" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 295 )
+material/0 = null
+material/1 = null
+
+[node name="tree_thin_dark" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 283 )
+material/0 = null
+material/1 = null
+
+[node name="tree_thin_fall" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2.60687, -3.32648, -4.2744 )
+mesh = ExtResource( 329 )
+material/0 = null
+material/1 = null

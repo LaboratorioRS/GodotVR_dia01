@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/cliff_blockSlopeWalls_stone.obj-59edd12e7d6e4e20e92d30b2c129eedd.mesh"
+
+[deps]
+
+files=[ "res://.import/cliff_blockSlopeWalls_stone.obj-59edd12e7d6e4e20e92d30b2c129eedd.mesh" ]
+
+source_file="res://assets/naturekit/cliff_blockSlopeWalls_stone.obj"
+dest_files=[ "res://.import/cliff_blockSlopeWalls_stone.obj-59edd12e7d6e4e20e92d30b2c129eedd.mesh", "res://.import/cliff_blockSlopeWalls_stone.obj-59edd12e7d6e4e20e92d30b2c129eedd.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true
